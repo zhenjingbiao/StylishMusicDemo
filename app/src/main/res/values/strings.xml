@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">MusicPlayer</string>
+
+
+    <!-- Common -->
+
+    <string name="mp.cancel">取消</string>
+    <string name="mp.Confirm">确认</string>
+
+    <!--main-->
+    <string-array name="main_titles">
+        <item>@string/fragment.title.play_list</item>
+        <item>@string/fragment.title.music</item>
+        <item>@string/fragment.title.local_files</item>
+        <item>@string/fragment.title.setting</item>
+    </string-array>
+
+    <!--activity/fragment titles-->
+    <string name="fragment.title.play_list">Play List</string>
+    <string name="fragment.title.music">Music</string>
+    <string name="fragment.title.local_files">Local Files</string>
+    <string name="fragment.title.setting">Setting</string>
+
+
+    <!--播放列表-->
+    <string name="play_list.favorite">收藏</string>
+    <string name="play_list.footer.add">添加播放列表</string>
+    <string name="play_list.footer.end_summary_formatter">总共有 %d 个播放列表</string>
+    <string name="play_list.create">创建播放列表</string>
+    <string name="play_list.created">创建 %s </string>
+    <string name="play_list.edit">编辑播放列表</string>
+    <string name="play_list.dialog.hint">播放列表名称</string>
+    <string name="play_list.dialog.add_to">添加至播放列表</string>
+    <string name="mp.list.layoutManager.linear">LinearLayoutManager</string>
+
+    <plurals name="mp_play_list_items_formatter">
+        <item quantity="one">%d 首歌</item>
+        <item quantity="other">%d 首歌</item>
+    </plurals>
+    <!--Menu-->
+    <string name="mp.menu.add_to_play_list">添加至播放列表</string>
+    <string name="mp.menu.create_play_list">添加至播放列表</string>
+    <string name="mp.menu.refresh">刷新</string>
+    <string name="mp.menu.play_now">立即播放</string>
+    <string name="mp.menu.rename">重命名</string>
+    <string name="mp.menu.delete">删除</string>
+
+    <!--Music-->
+    <string name="mp.music.default_duration">00:00</string>
+
+
+</resources>
